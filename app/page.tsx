@@ -7,7 +7,7 @@ export default function Home() {
       <div className="max-w-2xl w-full text-center space-y-8">
         <div className="flex flex-col items-center">
           <Image
-            src="/inkorrekt-web/logo.png"
+            src="/logo.png"
             alt="Inkorrekt.nu Logo"
             width={300}
             height={300}
