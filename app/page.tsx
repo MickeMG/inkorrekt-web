@@ -9,14 +9,14 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Inkorrekt.nu Logo"
-            width={300}
-            height={300}
+            width={400}
+            height={400}
             className="rounded-lg"
             priority
           />
         </div>
 
-        <div className="grid gap-6">
+        <div className="grid gap-6 max-w-md mx-auto w-full">
           <a
             href="https://www.tradera.com/profile/items/6396540/inkorrekt-nu"
             target="_blank"
@@ -45,6 +45,12 @@ export default function Home() {
           >
             <FaInstagram className="text-2xl" />
             <span>Följ oss på Instagram</span>
+          </a>
+        </div>
+
+        <div className="mt-8 text-black">
+          <a href="mailto:info@inkorrekt.nu" className="hover:underline">
+            info@inkorrekt.nu
           </a>
         </div>
       </div>
